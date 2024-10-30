@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 
 export default function Menu({ menu: { items } }) {
-  return <div className="main-menu self-center hidden md:block"></div>;
+  return null;
 }
 
 Menu.propTypes = {
