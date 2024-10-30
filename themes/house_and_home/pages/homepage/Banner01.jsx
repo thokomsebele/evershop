@@ -1,8 +1,8 @@
 import React from "react";
-import "./Customisation01_01.scss";
-import "./Customisation01_02.scss";
+import "./Banner01_01.scss";
+import "./Banner01_02.scss";
 
-function Customisation01() {
+function Banner01() {
   return (
     <div className="u-body u-xl-mode">
       <section
@@ -143,7 +143,7 @@ function Customisation01() {
   );
 }
 
-export default Customisation01;
+export default Banner01;
 
 export const layout = {
   areaId: "content",
