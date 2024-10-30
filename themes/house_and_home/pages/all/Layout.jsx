@@ -9,24 +9,6 @@ export default function Layout() {
   return (
     <>
       <LoadingBar />
-      <div className="header">
-        <div className="page-width flex justify-between">
-          <Area
-            id="header"
-            noOuter
-            coreComponents={[
-              {
-                component: { default: Area },
-                props: {
-                  id: "icon-wrapper",
-                  className: "icon-wrapper flex justify-between space-x-1",
-                },
-                sortOrder: 20,
-              },
-            ]}
-          />
-        </div>
-      </div>
       <main className="content">
         <Area id="content" className="" noOuter />
       </main>
@@ -35,12 +17,7 @@ export default function Layout() {
           <div>
             <div className="card-icons flex justify-center space-x-1 md:justify-start">
               <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="38"
-                  height="24"
-                  aria-labelledby="pi-visa"
-                  viewBox="0 0 38 24">
+                <svg width="38" height="24" viewBox="0 0 38 24">
                   <path
                     d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"
                     opacity="0.07"
@@ -56,12 +33,7 @@ export default function Layout() {
                 </svg>
               </div>
               <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="38"
-                  height="24"
-                  aria-labelledby="pi-master"
-                  viewBox="0 0 38 24">
+                <svg width="38" height="24" viewBox="0 0 38 24">
                   <path
                     d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"
                     opacity="0.07"
@@ -79,13 +51,7 @@ export default function Layout() {
                 </svg>
               </div>
               <div>
-                <svg
-                  viewBox="0 0 38 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="38"
-                  height="24"
-                  role="img"
-                  aria-labelledby="pi-paypal">
+                <svg viewBox="0 0 38 24" width="38" height="24" role="img">
                   <title id="pi-paypal">PayPal</title>
                   <path
                     opacity=".07"
@@ -113,7 +79,7 @@ export default function Layout() {
           </div>
           <div className="self-center">
             <div className="copyright text-center md:text-right text-textSubdued">
-              <span>Copyright © 2020 EverShop</span>
+              <span>Copyright © 2024 House and Home</span>
             </div>
           </div>
         </div>

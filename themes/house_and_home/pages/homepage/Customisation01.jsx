@@ -126,9 +126,11 @@ function Customisation01() {
                     <p className="u-text u-text-3">
                       Don't miss out on these incredible savings! Our Black
                       Friday sale offers unbeatable discounts on a wide range of
-                      appliances. Whether you're upgrading your kitchen or
-                      furnishing your dining room, now is the perfect time to
-                      shop and save.
+                      appliances.
+                    </p>
+                    <p className="u-text u-text-3">
+                      Whether you're upgrading your kitchen or furnishing your
+                      dining room, now is the perfect time to shop and save.
                     </p>
                   </div>
                 </div>
