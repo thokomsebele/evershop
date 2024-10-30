@@ -11,32 +11,35 @@ a {
   cursor: pointer;
 }
 
-.header {
-  padding: 0;
-  margin-bottom: 0;
+#app .header {
+  padding: 0 !important;
+  margin-bottom: 0 !important;
 }
 @media (max-width: 900px) {
-  .header {
-    padding: 0 10px;
+  #app .header {
+    padding: 0 10px !important;
+  }
+  #app .header .page-width > div {
+    min-width: none !important;
   }
 }
 
-.header .main_logo {
+#app .header .main_logo {
   width: 200px;
 }
 
-.header .page-width > div {
+#app .header .page-width > div {
   min-width: 150px;
   display: flex;
   align-items: center;
 }
 
-.header nav ul li a {
+#app .header nav ul li a {
   font-size: 15px;
   font-weight: 500;
 }
 
-main.content h3.mt-12.mb-12 {
+#app main.content h3.mt-12.mb-12 {
   margin-top: 5px !important;
   margin-bottom: 15px !important;
   text-transform: none !important;
@@ -45,6 +48,6 @@ main.content h3.mt-12.mb-12 {
   color: #009674 !important;
 }
 
-main.content div.pt-12 {
+#app main.content div.pt-12 {
   padding-top: 0 !important;
 }
