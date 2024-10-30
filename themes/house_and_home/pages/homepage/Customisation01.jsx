@@ -7,7 +7,6 @@ function Customisation01() {
     <div className="u-body u-xl-mode">
       <section
         className="u-clearfix u-container-align-left-lg u-container-align-left-xl u-image u-shading u-section-1"
-        id="carousel_7c2c"
         data-image-width="1500"
         data-image-height="850"
       >
@@ -49,7 +48,7 @@ function Customisation01() {
           </div>
         </div>
       </section>
-      <section className="u-clearfix u-section-2" id="carousel_115f">
+      <section className="u-clearfix u-section-2">
         <div className="u-clearfix u-sheet u-valign-middle u-sheet-1">
           <div className="custom-expanded data-layout-selected u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
             <div className="u-layout">
@@ -66,19 +65,15 @@ function Customisation01() {
                     <ul className="u-custom-list u-spacing-10 u-text u-text-2">
                       <li>
                         <div className="u-list-icon u-text-black">
-                          <svg
-                            className="u-svg-content"
-                            viewBox="0 0 512 512"
-                            id="svg-311a"
-                          >
+                          <svg className="u-svg-content" viewBox="0 0 512 512">
                             <path
                               d="m433.1 67.1-231.8 231.9c-6.2 6.2-16.4 6.2-22.6 0l-99.8-99.8-78.9 78.8 150.5 150.5c10.5 10.5 24.6 16.3 39.4 16.3 14.8 0 29-5.9 39.4-16.3l282.7-282.5z"
                               fill="currentColor"
                             ></path>
                           </svg>
                         </div>
-                        <span style={{ fontWeight: 700 }}>
-                          <span style={{ fontSize: "1.125rem" }}>
+                        <span>
+                          <span>
                             Up to 50% off on gas stoves
                             <br />
                           </span>
@@ -86,56 +81,42 @@ function Customisation01() {
                       </li>
                       <li>
                         <div className="u-list-icon u-text-black">
-                          <svg
-                            className="u-svg-content"
-                            viewBox="0 0 512 512"
-                            id="svg-311a"
-                          >
+                          <svg className="u-svg-content" viewBox="0 0 512 512">
                             <path
                               d="m433.1 67.1-231.8 231.9c-6.2 6.2-16.4 6.2-22.6 0l-99.8-99.8-78.9 78.8 150.5 150.5c10.5 10.5 24.6 16.3 39.4 16.3 14.8 0 29-5.9 39.4-16.3l282.7-282.5z"
                               fill="currentColor"
                             ></path>
                           </svg>
                         </div>
-                        <span style={{ fontSize: "1.125rem" }}>
+                        <span>
                           Up to 30% off on dining suites
                           <br />
                         </span>
                       </li>
                       <li>
                         <div className="u-list-icon u-text-black">
-                          <svg
-                            className="u-svg-content"
-                            viewBox="0 0 512 512"
-                            id="svg-311a"
-                          >
+                          <svg className="u-svg-content" viewBox="0 0 512 512">
                             <path
                               d="m433.1 67.1-231.8 231.9c-6.2 6.2-16.4 6.2-22.6 0l-99.8-99.8-78.9 78.8 150.5 150.5c10.5 10.5 24.6 16.3 39.4 16.3 14.8 0 29-5.9 39.4-16.3l282.7-282.5z"
                               fill="currentColor"
                             ></path>
                           </svg>
                         </div>
-                        <span style={{ fontSize: "1.125rem" }}>
+                        <span>
                           Up to 25% off on freezers
                           <br />
                         </span>
                       </li>
                       <li>
                         <div className="u-list-icon u-text-black">
-                          <svg
-                            className="u-svg-content"
-                            viewBox="0 0 512 512"
-                            id="svg-311a"
-                          >
+                          <svg className="u-svg-content" viewBox="0 0 512 512">
                             <path
                               d="m433.1 67.1-231.8 231.9c-6.2 6.2-16.4 6.2-22.6 0l-99.8-99.8-78.9 78.8 150.5 150.5c10.5 10.5 24.6 16.3 39.4 16.3 14.8 0 29-5.9 39.4-16.3l282.7-282.5z"
                               fill="currentColor"
                             ></path>
                           </svg>
                         </div>
-                        <span style={{ fontSize: "1.125rem" }}>
-                          Up to 15% off on fridges
-                        </span>
+                        <span>Up to 15% off on fridges</span>
                       </li>
                     </ul>
                   </div>

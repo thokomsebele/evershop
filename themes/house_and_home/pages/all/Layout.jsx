@@ -1,11 +1,14 @@
 import React from "react";
 import Area from "@components/common/Area";
+import LoadingBar from "@components/common/LoadingBar";
 import "../../css/global.scss";
 import "./Layout.scss";
+import "./tailwind.scss";
 
 export default function Layout() {
   return (
     <>
+      <LoadingBar />
       <div className="header">
         <div className="page-width flex justify-between">
           <Area
@@ -28,7 +31,6 @@ export default function Layout() {
         <Area id="content" className="" noOuter />
       </main>
       <div className="footer">
-        <h2>Mseshman!!!!</h2>
         <div className="page-width grid grid-cols-1 md:grid-cols-2 gap-2 justify-between">
           <div>
             <div className="card-icons flex justify-center space-x-1 md:justify-start">
@@ -38,8 +40,7 @@ export default function Layout() {
                   width="38"
                   height="24"
                   aria-labelledby="pi-visa"
-                  viewBox="0 0 38 24"
-                >
+                  viewBox="0 0 38 24">
                   <path
                     d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"
                     opacity="0.07"
@@ -60,8 +61,7 @@ export default function Layout() {
                   width="38"
                   height="24"
                   aria-labelledby="pi-master"
-                  viewBox="0 0 38 24"
-                >
+                  viewBox="0 0 38 24">
                   <path
                     d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"
                     opacity="0.07"
@@ -85,8 +85,7 @@ export default function Layout() {
                   width="38"
                   height="24"
                   role="img"
-                  aria-labelledby="pi-paypal"
-                >
+                  aria-labelledby="pi-paypal">
                   <title id="pi-paypal">PayPal</title>
                   <path
                     opacity=".07"
