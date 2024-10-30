@@ -10,16 +10,16 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 500px;
+  min-height: 420px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  width: 425px;
-  margin: 45px auto 45px 90px;
+  width: 375px;
+  margin: 30px auto 30px 80px;
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 350px;
+  min-height: 310px;
   background-image: none;
 }
 
@@ -28,14 +28,14 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin: 1px 30px 0;
 }
 
 .u-section-1 .u-text-2 {
-  font-size: 40px;
+  font-size: 32px;
   text-transform: uppercase;
   text-shadow: 0px 0px 19px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 0 0 rgba(0, 0, 0, 0);
@@ -43,10 +43,10 @@
 }
 
 .u-section-1 .u-group-1 {
-  width: 290px;
+  width: 230px;
   height: auto;
-  min-height: 75px;
-  margin: 20px auto 0;
+  min-height: 65px;
+  margin: 15px auto 0;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -54,8 +54,8 @@
 }
 
 .u-section-1 .u-text-3 {
-  font-size: 27px;
-  line-height: 27px;
+  font-size: 22px;
+  line-height: 22px;
   text-transform: uppercase;
   margin: 0;
 }
@@ -86,10 +86,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 447px;
-  }
-
   .u-section-1 .u-group-1 {
     height: auto;
   }
@@ -101,7 +97,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 514px;
+    min-height: 400px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -123,22 +119,18 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 386px;
+    min-height: 400px;
   }
 
   .u-section-1 .u-container-layout-1 {
     padding-left: 20px;
     padding-right: 20px;
   }
-
-  .u-section-1 .u-text-3 {
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 489px;
+    min-height: 400px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -175,10 +167,6 @@
     margin-top: 17px;
   }
 
-  .u-section-1 .u-text-3 {
-    font-size: 1.625rem;
-  }
-
   .u-section-1 .u-text-5 {
     font-size: 1.375rem;
     margin-top: 26px;
@@ -192,7 +180,7 @@
 
 .u-section-2 .u-layout-wrap-1 {
   width: 1140px;
-  margin: 15px -18px 15px auto;
+  margin: 0 0 0 auto;
 }
 
 .u-section-2 .u-container-layout-1 {
